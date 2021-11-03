@@ -1,0 +1,17 @@
+﻿@page "/ViewUsers"
+
+
+<PageTitle>View Users</PageTitle>
+
+<h1>View Users</h1>
+
+@foreach (var user in Users)
+{
+    <li>@user.UserName : @user.UserPath</li>
+}
+
+<button @onclick="NewUser">Add New User</button>
+
+@code {
+    
+}

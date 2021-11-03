@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>XTMF2.Web.Program</StartupObject>
+    <EnforceCodeStyleInBuild>False</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XTMF2.Interfaces\XTMF2.Interfaces.csproj" />
+    <ProjectReference Include="..\XTMF2\XTMF2.csproj" />
+  </ItemGroup>
+
+</Project>
