@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Z.Blazor.Diagrams" Version="2.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\XTMF2.Interfaces\XTMF2.Interfaces.csproj" />
     <ProjectReference Include="..\XTMF2\XTMF2.csproj" />
   </ItemGroup>

@@ -12,7 +12,6 @@ namespace XTMF2.Web.Pages
     {
         public ReadOnlyObservableCollection<User> Users = Server.Runtime.UserController.Users;
 
-
         protected override void OnInitialized()
         {
             base.OnInitialized();

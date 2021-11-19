@@ -4,11 +4,12 @@
 <PageTitle>View Users</PageTitle>
 
 <h1>View Users</h1>
-
+<lu>
 @foreach (var user in Users)
 {
     <li>@user.UserName : @user.UserPath</li>
 }
+</lu>
 
 <button @onclick="NewUser">Add New User</button>
 
