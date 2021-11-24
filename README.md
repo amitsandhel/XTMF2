@@ -20,7 +20,7 @@ operating XTMF2.
 
 ### Requirements
 
-1. DotNet Core 3.0+ SDK
+1. DotNet Core 6.0+ SDK
 
 ### Clone the XTMF2 repository
 
@@ -44,3 +44,5 @@ build that is stable enough for TMG to develop their software against.
 stable pre-release build.
 * [master](https://github.com/TravelModellingGroup/XTMF2/tree/master) contains the latest
 supported build of XTMF2.
+
+### Breakdown of Folders
